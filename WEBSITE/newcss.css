@@ -1,0 +1,389 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Navbar Styles */
+.navbar {
+    background: #333;
+    color: #fff;
+    overflow: hidden;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar ul li {
+    float: left;
+}
+
+.navbar ul li a {
+    display: block;
+    padding: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Footer Styles */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+/* Logo Styles */
+.logo {
+    border-radius: 150%;
+    height: 6vw;
+    width: 12vw;
+    border-color: #6b473065;
+    border-style: double;
+}
+
+/* Button Styles */
+#bf, #bs {
+    padding: 25px;
+    height: 25px;
+    width: 200px;
+    border-radius: 100px;
+    background-color: #8a6340da;
+    color: #fffaec;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    margin: 0 auto;
+    white-space: nowrap;
+}
+
+#bf span, #bs span {
+    font-family: Verdana;
+    font-size: x-large;
+}
+
+#bf:hover, #bs:hover {
+    background-color: #6b4730;
+}
+
+/* Additional Styles */
+html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+a:any-link {
+    color: #0000009f;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+/* Specific Styles for My Best Friend Page */
+.aboutme {
+    margin-left: auto;
+    margin-top: -2vw;
+    margin-bottom: auto;
+    margin-right: auto;
+    text-align: left;
+    font-family: cursive;
+    color: #000000ab;
+    font-size: 4vw;
+}
+
+.content {
+    text-align: justify;
+    text-indent: 5%;
+    font-family: cursive;
+    color: #000000ab;
+    font-size: 20px;
+    margin-right: 5vw;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+
+
+
+
+
+
+/* Specific Styles for Services Page */
+.service {
+    display: flex;
+}
+
+.service > div {
+    background-color: #ffffff3d;
+    border-style: double;
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 5%;
+}
+
+.service p {
+    text-align: justify;
+    text-indent: 5%;
+    font-family: cursive;
+    color: #000000ab;
+    font-size: 1.2vw;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 1cm;
+}
+
+.service h3 {
+    font-family: cursive;
+    color: #000000ab;
+    text-align: center;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+/* Specific Styles for Contact Page */
+.centerr {
+    border-radius: 50%;
+    float: left;
+    border-width: 10px;
+    margin-left: 10%;
+    margin-top: 10%;
+    border-style: double;
+    border-color: #ffffff;
+    position: relative;
+    top: -110px;
+    left: -9%;
+}
+
+.contentt ul li {
+    list-style-type: none;
+    display: block;
+}
+
+.contentt .link {
+    margin-top: 100px;
+}
+
+.contentt {
+    text-align: justify;
+    font-family: cursive;
+    color: #000000ab;
+    font-size: 20px;
+    margin-right: 5vw;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.links {
+    font-family: cursive;
+    font-weight: bold;
+    color: #000000ab;
+    font-size: 40px;
+}
+
+.lugu li a img {
+    width: 4vw;
+    height: auto;
+    border-style: double;
+    border-radius: 50%;
+    display: block;
+    position: relative;
+    right: -2vw;
+}
+
+.lugu li a {
+    text-decoration: none;
+}
+
+.lugu {
+    columns: 3;
+    column-gap: 5vw;
+}
+
+.uno {
+    margin-left: 0vw;
+}
+
+.customer {
+    display: block;
+}
+
+.uno {
+    text-align: left;
+    /* Center-align the content within each customer's section */
+    columns: 2;
+    margin-right: 50vw;
+    margin-left: 10vw;
+    margin-top: 5vw;
+}
+
+.dos {
+    text-align: right;
+    columns: 2;
+    margin-right: 10vw;
+    margin-left: 50vw;
+}
+
+.customer img {
+    width: 15vw;
+    /* Adjust the width of the images */
+    height: auto;
+    border-radius: 20%;
+}
+
+.customer p {
+    font-family: cursive;
+    text-align: left;
+    text-align: justify;
+    text-indent: 2vw;
+    font-size: x-large;
+    text-indent: 5%;
+    color: #000000ab;
+}
+
+#sa {
+    border-style: double;
+}
+
+.off {
+    border-style: double;
+    margin-left: 10vw;
+    margin-top: 1vw;
+}
+
+
+
+
+
+
+/* Specific Styles for About Me Page */
+.aboutme {
+    margin-left: auto;
+    margin-top: -2vw;
+    margin-bottom: auto;
+    margin-right: auto;
+    text-align: left;
+    font-family: cursive;
+    color: #000000ab;
+    font-size: 4vw;
+}
+
+.content {
+    text-align: justify;
+    text-indent: 5%;
+    font-family: cursive;
+    color: #000000ab;
+    font-size: 20px;
+    margin-right: 5vw;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+
+
+
+
+
+
+
+
+/* Specific Styles for Home Page */
+.slogan {
+    font-family: cursive;
+    font-weight: bolder;
+    text-align: center;
+    color: #000000ab;
+    font-size: 20px;
+    position: relative;
+    top: 18cm;
+    left: -50%;
+    margin-top: 0.5cm;
+    white-space: nowrap;
+}
+
+.buton {
+    display: flex;
+    justify-content: center;
+    margin-left: 1cm;
+}
+
+.buton button {
+    padding: 25px;
+    height: 25px;
+    width: 200px;
+    border-radius: 100px;
+    background-color: #8a6240;
+    color: #fffaec;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-left: -6cm;
+    margin-top: 0cm;
+}
+
+.buton button span {
+    font-family: Verdana;
+    font-size: x-large;
+}
+
+.buton button:hover {
+    background-color: #6b4730;
+}
+
+/* Additional Styles */
+html, body {
+    margin: 0;
+    padding: 0;
+    background-image: url("Images/Home.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}

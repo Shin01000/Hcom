@@ -1,0 +1,409 @@
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Logo Styles */
+.logo {
+    height: 13vw;
+    margin-left: 1%;
+    align-self: center !important;
+}
+
+/* Navbar Styles */
+.navbar {
+    height: 4cm;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    background-color: #fff2e7;
+}
+.navbar, 
+.navbar ul, 
+.navbar ul li a{
+    display: flex !important;
+    list-style: none !important;
+    text-decoration: none !important;
+    }
+
+.navbar p {
+    font-family: cursive;
+    font-weight: lighter;
+    font-size: large;
+    white-space: nowrap;
+    color: #6b47308a;
+    align-content: flex-start !important;
+    
+}
+body {
+    font-family: "Sofia" !important !important;
+  }
+.quote {
+    display: flex;
+    align-items: baseline; 
+}
+
+.hashtag {
+    font-family: cursive;
+    font-weight: bolder;
+    
+    margin-right: 5px;
+    font-size: 2.5vw; 
+    align-self: center; 
+    color: #000000ab;
+    
+}
+
+.quote-text {
+    align-self: flex-end; 
+    margin-bottom: 0; 
+}
+
+#hashtag {
+    font-size: 2vw;
+}
+
+.navbar ul {
+    width: 70%;
+    list-style: none;
+    display: flex;
+    align-self: center !important;
+    font-size: xx-large;
+    margin-left: 20%;
+    margin-right: 8%;
+
+}
+.navbar .quote p{
+    font-size: 1.3vw;
+}
+
+.navbar ul li {
+    padding-left: 15%;
+    white-space: nowrap;
+}
+
+.navbar ul li a {
+    font-family: 'Trebuchet MS';
+    text-decoration: none;
+    color: #000000ab;
+    transition: .4s ease;
+}
+
+.navbar ul li a.active {
+    font-weight: bold;
+    font-size: 1.5vw;
+}
+
+.navbar ul li a:hover {
+    font-weight: bold;
+}
+
+/* aside */
+.concon ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center; 
+    height: 100vh;
+}
+.concon ul li img{
+    max-width: 90%; 
+    padding: 0%;
+}
+.concon ul li {
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+    font-size: 5vw;
+    padding-bottom: 10%;
+}
+.concon ul li .infoo {
+    font-size: 1vw;
+    text-align: justify;
+    text-indent: 5%;
+    font-family: cursive;
+    color: #000000ab;
+    margin: 10%;
+}
+
+.center {
+    border-radius: 50%;
+    border-width: 10px;
+    width: 75%;
+    border-style: double;
+    border-color: #ffffff;
+
+}
+
+/* Button Styles */
+
+.buton {
+    display: flex;
+    justify-content: center;
+    margin-left: 1cm;
+}
+
+.buton button {
+    padding: 25px;
+    height: 25px;
+    width: 200px;
+    border-radius: 100px;
+    background-color: #8a6240;
+    color: #fffaec;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+.buton button span {
+    font-family: Verdana;
+    font-size: x-large;
+}
+
+.buton button:hover {
+    background-color: #6b4730;
+}
+
+/* Additional Styles */
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("Images/Home.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+a:any-link {
+    color: #0000009f;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: #6b4730;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -1px;
+}
+
+
+
+
+
+.centerr {
+    border-radius: 50%;
+    float: left;
+    border-width: 10px;
+    margin-left: 10%;
+    margin-top: 10%;
+    border-style: double;
+    border-color: #ffffff;
+    position: relative;
+    top: -110px;
+    left: -9%;
+}
+
+h1 {
+    font-family: cursive;
+    color: #644931;
+    text-align: center;
+    font-size: 5vw;
+    margin-right: 10%;
+    white-space: nowrap;
+}
+
+
+
+.contentt ul li {
+    list-style-type: none;
+    display: block;
+}
+
+.contentt .link {
+    margin-top: 100px;
+}
+
+.contentt {
+    text-align: justify;
+    font-family: cursive;
+    color: #000000ab;
+    font-size: 20px;
+    margin-right: 5vw;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.links {
+    font-family: cursive;
+    font-weight: bold;
+    color: #000000ab;
+    font-size: 40px;
+}
+
+.lugu li a img {
+    width: 4vw;
+    height: auto;
+    border-style: double;
+    border-radius: 50%;
+    display: block;
+    position: relative;
+    right: -2vw;
+}
+
+.lugu li a {
+    text-decoration: none;
+}
+
+.lugu {
+    columns: 3;
+    column-gap: 5vw;
+}
+
+.uno {
+    margin-left: 0vw;
+}
+
+.customer {
+    display: block;
+}
+
+.uno {
+    text-align: left;
+    columns: 2;
+    margin-right: 50vw;
+    margin-left: 10vw;
+    margin-top: 5vw;
+}
+
+.dos {
+    text-align: right;
+    columns: 2;
+    margin-right: 10vw;
+    margin-left: 50vw;
+}
+
+.customer img {
+    width: 15vw;
+    height: auto;
+    border-radius: 20%;
+}
+
+.customer p {
+    font-family: cursive;
+    text-align: left;
+    text-align: justify;
+    text-indent: 2vw;
+    font-size: x-large;
+    text-indent: 5%;
+    color: #000000ab;
+}
+
+#sa {
+    border-style: double;
+}
+
+.off {
+    border-style: double;
+    margin-left: 10vw;
+    margin-top: 1vw;
+}
+
+.service {
+    display: flex;
+}
+
+.service > div {
+    background-color: #ffffff3d;
+    border-style: double;
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 5%;
+}
+
+.service p {
+    text-align: justify;
+    text-indent: 5%;
+    font-family: cursive;
+    color: #000000ab;
+    font-size: 1.2vw;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 1cm;
+}
+
+.service h3 {
+    font-family: cursive;
+    color: #000000ab;
+    text-align: center;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+#bs {
+    padding: 25px;
+    height: 25px;
+    width: 200px;
+    border-radius: 100px;
+    background-color: #8a6240;
+    color: #fffaec;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    margin: 0 auto;
+    white-space: nowrap;
+}
+
+#bs span {
+    font-family: Verdana;
+    font-size: x-large;
+}
+
+#bs:hover {
+    background-color: #6b4730;
+}
+
+footer {
+    background-color: #d394942c;
+    color: #fff;
+    text-align: center;
+    padding: 1px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+/* Burger  */
+.burger-menu {
+    display: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+#nav-toggle {
+    display: none;
+}
+

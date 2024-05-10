@@ -1,0 +1,78 @@
+@media screen and (max-width:2560px){
+    .logo{
+        height: 5vw;
+        width: auto;
+        margin-left: 3vw;
+    }
+}
+@media screen and (max-width:320px){
+    body{
+        padding: 0;
+        margin: 0;
+    }
+
+    .center{
+        height: 80vw;
+        width: auto;
+        margin: 80;
+        margin-top: 40vw;
+        padding: 0;
+    }
+    .navbar ul li a,
+    .navbar ul li p,
+    .navbar #hashtag,
+    .navbar .logo {
+        font-size: xx-small;
+        padding: 2vw;
+        height: 15vw;
+        width: auto;
+    }
+    .navbar #hashtag{
+        margin: 0;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .navbar .search-container{
+        height: 5px;
+    }
+    .navbar .logo {
+        margin-left: 15vw;
+    }
+    .navbar{
+        padding: 0;
+    }
+    .navbar ul li:nth-child(2){
+        padding-top: 10vw;
+        padding-left: 0;
+    }
+
+}
+/* Hides the checkbox */
+.menu-toggle {
+    display: none;
+}
+
+/* Styles for hamburger icon */
+.menu-icon {
+    cursor: pointer;
+    display: block;
+    padding: 10px;
+    color: black
+}
+
+/* Styles for menu items */
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li {
+    display: none;
+}
+
+/* Show menu items when checkbox is checked */
+.menu-toggle:checked ~ .cash .menu li {
+    display: block;
+}
+
