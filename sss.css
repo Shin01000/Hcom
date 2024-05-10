@@ -1,0 +1,46 @@
+@media screen and(max-width:320px){
+    body{
+        padding: 0%;
+        margin: 0%;
+    }
+    .navbar{
+        /* background-color: black; */
+        display: flex;
+        }
+
+    .logo{
+        height: 1vw;
+        border-radius: 50%;
+    }
+}
+body{
+    padding: 0%;
+    margin: 0%;
+}
+.navbar, 
+.navbar ul, 
+.navbar ul li a{
+    display: flex !important;
+    list-style: none !important;
+    text-decoration: none !important;
+    }
+.navbar p{
+    align-content: center !important;
+}
+.navbar{
+    padding: 1vw;
+}
+.navbar ul{ 
+    justify-content: space-between;
+    padding-left: 1vw;
+    
+    margin-left: 3vw;
+
+}
+    
+.logo{
+    height: 5vw;
+    border-radius: 50%;
+    align-self: center !important;
+}
+
